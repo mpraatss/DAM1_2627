@@ -37,6 +37,8 @@ public class BEB_ej1 {
 		System.out.println("Números mayores a 0: " + mayor_0);
 		System.out.println("Números menores a 0: " + menor_0);
 		System.out.println("Números iguales a 0: " + igual_0);
+
+		scan.close();
 	}
 
 }

@@ -8,7 +8,6 @@ public class BEB_ej2 {
 
 		Scanner scan = new Scanner(System.in);
 
-		String[] vocales = { "a", "e", "i", "o", "u" };
 		boolean espacio = true;
 
 		while (espacio == true) {
@@ -18,10 +17,15 @@ public class BEB_ej2 {
 
 			if (letra == ' ') {
 				espacio = false;
-
+			} else if (letra != ' ') {
+				if ("aeiou".indexOf(letra) != -1) {
+					System.out.println("VOCAL");
+				} else {
+					System.out.println("NO VOCAL");
+				}
 			}
 		}
-
+		scan.close();
 	}
 
 }

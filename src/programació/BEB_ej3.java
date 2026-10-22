@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BEB_ej3 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner scan = new Scanner(System.in);
 
 		System.out.print("Introduce el primer número: ");
